@@ -1,0 +1,2 @@
+import '../darstellung/tetris.scss';
+

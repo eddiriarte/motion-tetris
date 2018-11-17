@@ -1,0 +1,34 @@
+{
+  "name": "tetrix-with-js",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Eduardo Iriarte",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "gest": "https://github.com/eiriarte-mendez/gest.js.git#0.5.2",
+    "git": "^0.1.5",
+    "lodash": "^4.17.11",
+    "lodash.camelcase": "^4.3.0"
+  }
+}
