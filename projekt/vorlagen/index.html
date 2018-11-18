@@ -18,7 +18,54 @@
 <body>
 
     <div id="seite">
-        <h2>Hello World!</h2>
+        <h2>Tetrominos</h2>
+
+        <article class="beschreibung">
+            <p>
+                Die Bausteine im Tetris werden Tetrominos benannt. In der original Variante des Spiels wurden sieben Tetrominos definiert. 
+                Die Tetrominos werden Aufgrund ihrer Ähnlichkeit mit den lateinischen Buchstaben (T, I, O, L, J, S, Z) angesprochen.
+            </p>
+
+            <p><strong>TODO:</strong> Beim Klicken auf einen der Buttons soll der entsprechender Tetromino in der Vorschaubox angezeigt werden.</p>
+
+        </article>
+
+
+        <div class="container">
+            <section class="spalte auswahl">
+                <button class="btn" onclick="figurAnzeigen(T)">Figur T</button>
+                <button class="btn" onclick="figurAnzeigen(I)">Figur I</button>
+                <button class="btn" onclick="figurAnzeigen(O)">Figur O</button>
+                <button class="btn" onclick="figurAnzeigen(L)">Figur L</button>
+                <button class="btn" onclick="figurAnzeigen(J)">Figur J</button>
+                <button class="btn" onclick="figurAnzeigen(S)">Figur S</button>
+                <button class="btn" onclick="figurAnzeigen(Z)">Figur Z</button>
+            </section>
+            <section class="spalte vorschau">
+                <div class="raster">
+                    <div id="vorschau_0-0" class="tetro"></div>
+                    <div id="vorschau_0-1" class="tetro"></div>
+                    <div id="vorschau_0-2" class="tetro"></div>
+                    <div id="vorschau_0-3" class="tetro"></div>
+                    <br>
+                    <div id="vorschau_1-0" class="tetro"></div>
+                    <div id="vorschau_1-1" class="tetro"></div>
+                    <div id="vorschau_1-2" class="tetro"></div>
+                    <div id="vorschau_1-3" class="tetro"></div>
+                    <br>
+                    <div id="vorschau_2-0" class="tetro"></div>
+                    <div id="vorschau_2-1" class="tetro"></div>
+                    <div id="vorschau_2-2" class="tetro"></div>
+                    <div id="vorschau_2-3" class="tetro"></div>
+                    <br>
+                    <div id="vorschau_3-0" class="tetro"></div>
+                    <div id="vorschau_3-1" class="tetro"></div>
+                    <div id="vorschau_3-2" class="tetro"></div>
+                    <div id="vorschau_3-3" class="tetro"></div>
+                </div>
+            </section>
+        </div>
+
     </div>
 
 </body>
