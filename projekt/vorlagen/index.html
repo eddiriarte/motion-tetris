@@ -18,7 +18,29 @@
 <body>
 
     <div id="seite">
-        <h2>Hello World!</h2>
+        <h2>Welt</h2>
+
+        <article class="beschreibung">
+            <p>Wir geben unseren Spielfeld die bezeichnung Welt. Unsere Welt besteht aus einer zweidimensionale Matrix.</p>
+            <p>Daten und Darstellung strikt getrennt, das hilft uns die Übersichtlichkeit zu bewahren. Dazu verwenden wir zwei Funktionen, die einer kann eine Welt mit eine beliebige Größe erstellen und die andere übertragt den Zustand auf dem Browser.</p>
+
+            <p><strong>TODO:</strong> Schleifen sollen vervöllständigt werden, sodass unsere Welt wieder sichtbar wird.</p>
+
+        </article>
+
+
+        <div class="container">
+            <section class="spalte auswahl">
+                <input type="number" class="eingabe" name="breite" id="welt-breite" placeholder="Breite">
+                <input type="number" class="eingabe" name="hoehe" id="welt-hoehe" placeholder="Höhe">
+                <button class="btn" onclick="darstellungGenerieren()">Aktualisieren</button>
+                <div id="roh-daten"></div>
+            </section>
+
+            <section class="spalte vorschau">
+                <div id="welt" class="raster"></div>
+            </section>
+        </div>
     </div>
 
 </body>
