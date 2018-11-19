@@ -1,0 +1,11 @@
+#!/bin/bash
+
+BASEDIR=$(dirname "$0")
+
+MEIN_TEAM=$(grep MEIN_TEAM $BASEDIR/.env | cut -d '=' -f2)
+
+AUFGABE=$(printf "%02d" $@)
+
+git checkout -b "aufgabe/${AUFGABE}" --track "origin/hacker-school/aufgabe-${AUFGABE}"
+
+git checkout -b "loesung/${MEIN_TEAM}-${AUFGABE}"
