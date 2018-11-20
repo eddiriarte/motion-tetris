@@ -26,7 +26,7 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "gest": "https://github.com/eiriarte-mendez/gest.js.git#0.5.2",
+    "gest": "https://github.com/eiriarte-mendez/gest.js.git#^0.5.2",
     "git": "^0.1.5",
     "lodash": "^4.17.11",
     "lodash.camelcase": "^4.3.0"
