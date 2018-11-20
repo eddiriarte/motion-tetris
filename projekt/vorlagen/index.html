@@ -18,7 +18,36 @@
 <body>
 
     <div id="seite">
-        <h2>Hello World!</h2>
+        <h2>Random Tetromino</h2>
+
+        <article class="beschreibung">
+            <p>Während des Spiels werden immer zufallige Bausteine nacheinander ins Spiel eingeworfen.</p>
+            <p>
+                <strong>TODO:</strong> 
+                Vervöllständige die Funktion `naechstesBaustein` das ein zufälliges Tetromino zurückgibt. <br>
+                Zudem sollen die Tetrominos auf dem Weltraster angezeigt werden, aber es hat sich ein "Bug" in der Funktion `rasterAktualisieren` eingeschlichen. Behebe diesen Fehler.
+            </p>
+
+        </article>
+
+        <div class="container">
+            
+            <section class="spalte welt">
+                <div id="welt" class="raster"></div>
+            </section>
+
+            <section class="spalte auswahl">
+                <label class="eingabe-beschreibung" for="tetro-zeile">Zeile:</label>
+                <input type="number" class="eingabe" name="zeile" id="tetro-zeile" value="3" onchange="zeileSetzen(this.value)">
+                <br>
+                <label class="eingabe-beschreibung" for="tetro-spalte">Spalte:</label>
+                <input type="number" class="eingabe" name="spalte" id="tetro-spalte" value="3" onchange="spalteSetzen(this.value)">
+                <button class="btn" onclick="naechstesBaustein()">Nächstes Baustein</button>
+                <div id="roh-daten"></div>
+            </section>
+
+            
+        </div>
     </div>
 
 </body>
