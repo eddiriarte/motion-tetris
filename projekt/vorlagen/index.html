@@ -18,7 +18,33 @@
 <body>
 
     <div id="seite">
-        <h2>Hello World!</h2>
+        <h2>Kollisionen am Rand</h2>
+
+        <article class="beschreibung">
+            <p>Während des Spiels sollen die Steine nicht aus dem Rand fallen, dafür werden Kollisionsregelungen benötigt.</p>
+            <p>
+                <strong>TODO:</strong> 
+                Implementiere die fehlenden Stellen in den Methoden `tetroNachLinksBewegen`, `tetroNachRechtsBewegen` und `tetroNachUntenSchieben`.<br>
+            </p>
+
+        </article>
+
+        <div class="container">
+            
+            <section class="spalte welt">
+                <div id="welt" class="raster"></div>
+            </section>
+
+            <section class="spalte auswahl">
+                <label class="eingabe-beschreibung" id="tetro-zeile">Zeile: <span></span></label>
+                <br>
+                <label class="eingabe-beschreibung" id="tetro-spalte">Spalte: <span></span></label>
+                <br>
+                <button class="btn" onclick="reset()">Wiederherstellen</button>
+            </section>
+
+            
+        </div>
     </div>
 
 </body>
