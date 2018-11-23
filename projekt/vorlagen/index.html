@@ -18,7 +18,38 @@
 <body>
 
     <div id="seite">
-        <h2>Hello World!</h2>
+        <h2>Game Over</h2>
+
+        <article class="beschreibung">
+            <p>Wenn das Feld voll ist, sollte das Spiel enden und alle Event-Listener sollten zurückgesetzt werden.</p>
+            <p>
+                <strong>TODO:</strong> 
+                Finde den Fehler in der Methode `gameOver`, damot das Spiel zurückgesetzt werden kann.
+            </p>
+        </article>
+
+        <div class="container">
+            
+            <section class="spalte welt">
+                <div id="welt" class="raster"></div>
+            </section>
+
+            <section class="spalte aktionen">
+
+                <div id="vorschau" class="raster"></div>
+
+                <section id="steuerung">
+                    <button id="kamera-schalter" class="kreis-btn" onclick="kameraSchalterGedruckt()">
+                        <img class="aus" src="../bilder/twotone_videocam_off_black_48dp.png" alt="ausgeschaltet">
+                        <img class="an" src="../bilder/twotone_videocam_white_48dp.png" alt="eingeschaltet">
+                    </button>
+                </section>
+
+                <div id="gest"></div>
+            </section>
+
+            
+        </div>
     </div>
 
 </body>
