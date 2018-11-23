@@ -18,7 +18,45 @@
 <body>
 
     <div id="seite">
-        <h2>Hello World!</h2>
+        <h2>Maximale Geschwindigkeit</h2>
+
+        <article class="beschreibung">
+            <p>Immer wenn der Spieler weitere 2000 Punkte erreicht hat soll er in das nächste Level befördert werden.</p>
+            <p>
+                <strong>TODO:</strong> 
+                Implementiere die richtigen mathematische Funktionen, um die Geschwindigkeit des Spiels bei jedem Leveländerung zu erhöhen. 
+            </p>
+        </article>
+
+        <div class="container">
+            
+            <section class="spalte welt">
+                <div id="welt" class="raster"></div>
+            </section>
+
+            <section class="spalte aktionen">
+                <h2><span id="punkte" class="punkte">00000000</span> Score</h2>
+
+                <h2><span id="zeilen-total" class="punkte">00000000</span> Zeilen</h2>
+
+                <h2><span id="level" class="punkte">00000000</span> Level</h2>
+
+                <div id="vorschau" class="raster"></div>
+
+                <section id="steuerung">
+                    <button id="kamera-schalter" class="kreis-btn" onclick="kameraSchalterGedruckt()">
+                        <img class="aus" src="../bilder/twotone_videocam_off_black_48dp.png" alt="ausgeschaltet">
+                        <img class="an" src="../bilder/twotone_videocam_white_48dp.png" alt="eingeschaltet">
+                    </button>
+                </section>
+
+                <div id="gest"></div>
+            </section>
+
+            <!-- <audio loop id="tetris-song" controls="false">
+                <source src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Tetris_theme.ogg" type="audio/ogg">
+            </audio> -->
+        </div>
     </div>
 
 </body>
