@@ -1556,9 +1556,9 @@ gaze@^1.0.0:
   dependencies:
     globule "^1.0.0"
 
-"gest@https://github.com/eiriarte-mendez/gest.js.git#0.5.2":
+"gest@https://github.com/eiriarte-mendez/gest.js.git#^0.5.2":
   version "0.5.0"
-  resolved "https://github.com/eiriarte-mendez/gest.js.git#d9f5c627aa0150b37dcd0cf19b04746d8ae8e7ba"
+  resolved "https://github.com/eiriarte-mendez/gest.js.git#ca9a25e21ea23ac4d970e43bcdde9a8d6688f3d8"
 
 get-caller-file@^1.0.1:
   version "1.0.3"
