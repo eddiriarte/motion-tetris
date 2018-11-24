@@ -33,18 +33,21 @@ document.addEventListener('keyup', (event) => {
 
 
 const tetroNachLinksBewegen = () => {
+    tetro.nachLinks();
     // TODO: prüfen ob die Ränder erreicht wurden.
     //       alternativ kannst du die Prüfung direkt 
     //       in der Klasse Tetromino implementieren.
 };
 
 const tetroNachRechtsBewegen = () => {
+    tetro.nachRechts();
     // TODO: prüfen ob die Ränder erreicht wurden.
     //       alternativ kannst du die Prüfung direkt 
     //       in der Klasse Tetromino implementieren.
 };
 
 const tetroNachUntenSchieben = () => {
+    tetro.nachUnten();
     // TODO: prüfen ob die Ränder erreicht wurden.
     //       alternativ kannst du die Prüfung direkt 
     //       in der Klasse Tetromino implementieren.
