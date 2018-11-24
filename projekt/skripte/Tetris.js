@@ -110,7 +110,10 @@ class Tetris {
     tetroAblegen() {
         // @TODO hier kommt dein Code....
         //       - generiere eine `welt` mit belegten Werte
-        //       -  vergiss nich ein neuer Tetromino hinterher zu schieben ;)
+
+        // ---
+        this.tetro = this.naechstesTetro;
+        this.naechstesTetro = zufaelligenBaustein();
     }
 
     tastenEventsBehandeln() {
