@@ -28,7 +28,7 @@
   "dependencies": {
     "gest": "https://github.com/eiriarte-mendez/gest.js.git#0.5.4",
     "git": "^0.1.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "lodash.camelcase": "^4.3.0"
   }
 }
